@@ -1,0 +1,35 @@
+# Dependencies
+node_modules/
+
+# Build output
+dist/
+build/
+*.local
+
+# Environment
+.env
+.env.*
+!.env.example
+
+# Logs and debug
+.manus-logs/
+*.log
+npm-debug.log*
+pnpm-debug.log*
+
+# Editor and OS
+.DS_Store
+.idea/
+*.swp
+*.swo
+.vscode/
+
+# TypeScript
+*.tsbuildinfo
+
+# Vite
+.vite/
+
+# Test
+coverage/
+.nyc_output/
